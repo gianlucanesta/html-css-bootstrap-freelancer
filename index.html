@@ -191,18 +191,34 @@
         
         <!-- Devo costruire il form con bootstrap questo è solo momentaneo -->
         <div class="container">
-            <ul class="contact-me-list">
-                <li>Name</li>
-                <li>Email Address</li>
-                <li>Phone Address</li>
-                <li id="message">Message</li>
-            </ul>
-            <div class="send-button">
-                <a href="#">Send</a>
+            <div class="form">
+                <form>
+                    <div class="mb-3">
+                      <label for="customer-name" class="form-label sr-only">Name</label>
+                      <input type="text" class="form-control" id="customer-name" placeholder="Name">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="customer-email" class="form-label sr-only">Email Adress</label>
+                        <input type="email" class="form-control" id="customer-email" placeholder="Email Adress">
+                      </div>
+
+                    <div class="mb-3">
+                        <label for="customer-phone" class="form-label sr-only">Phone Number</label>
+                        <input type="text" class="form-control" id="customer-phone" placeholder="Phone Number">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="customer-message" class="form-label sr-only">Message</label>
+                        <textarea class="form-control" id="customer-message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Send</button>
+                </form>
             </div>
-        </div>
     </section>
     <!-- End Contact Me Section -->
+    
 
     <footer>
         <section class="footer-top">
@@ -211,7 +227,7 @@
                     
                     <!-- Footer Column Left -->
                     <div class="col-12 col-md-3">
-                        <div class="text_align_center footer-col-content d-flex flex-column justify-content-md-between">
+                        <div class="text_align_center footer-col-content d-flex flex-column justify-content-md-between pb-sm-3">
                             <h4>location</h4>
                             <span>2215 John Daniel Drive Clark, MO 54243</span>
                         </div>
@@ -223,7 +239,7 @@
                         <div class="text_align_center footer-col-content d-flex justify-content-center"> 
                             <div>
                                 <h4>around the web</h4>
-                                <div class="row justify-content-center">
+                                <div class="row justify-content-center pb-sm-3">
                             
                                     <div class="col-3">
                                         <div class="d-flex">

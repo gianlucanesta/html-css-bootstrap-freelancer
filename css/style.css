@@ -152,32 +152,19 @@ header {
     display: inline-block;
 }
 
-.contact-me-list li {
-    list-style-type:none;
-    font-size: 1.3em;
-    padding-bottom: 15px; 
-    border-bottom: 1px solid lightgray; 
+.form {
+    padding-bottom: 30px;
 }
 
-.send-button a {
-    text-decoration: none;
-    background-color: #1abc9c;
-    color: #ffffff;
-    font-size: 1.3em;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-left: 30px;
-    display: inline-block;
-}
 
-.send-button {
-    margin-bottom: 60px;
+input[type="text"],
+input[type="email"],
+textarea.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1.2em; 
 }
-
-#message {
-    padding-bottom: 200px;
-}
-
 footer{
     color: white;
 }
@@ -213,4 +200,8 @@ footer{
 
 .text_align_center {
     text-align: center;
+}
+
+.pb-sm-3 {
+    padding-bottom: 30px;
 }
